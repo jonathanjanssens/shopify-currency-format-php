@@ -1,0 +1,18 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jtn\\ShopifyMoneyFormat\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jtn\\ShopifyMoneyFormat\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit --colors=always"
+    }
+}
