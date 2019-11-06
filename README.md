@@ -19,9 +19,9 @@ If you pass a string the library will expect this came from the Shopify API so w
 You can change the format by calling `setFormat`.
 
 ```<?php
-use Jtn\ShopifyMoneyFormat\ShopifyMoneyFormat;
+use Jtn\ShopifyCurrencyFormat\ShopifyCurrencyFormat;
 
-$formatter = new ShopifyMoneyFormat('{{ amount_no_decimals }}');
+$formatter = new ShopifyCurrencyFormat('{{ amount_no_decimals }}');
 echo $formatter->format(3.65); // 4
 
 $formatter->setFormat('{{ amount_no_decimals }}');
@@ -35,10 +35,10 @@ echo $formatter->format('5.99'); // <span class=money>£5.99 GBP</span>
 If you specifiy an unsupported format an exception will be thrown.
 
 ```<?php
-use Jtn\ShopifyMoneyFormat\ShopifyMoneyFormat;
-use Jtn\ShopifyMoneyFormat\UnsupportedFormatException;
+use Jtn\ShopifyCurrencyFormat\ShopifyCurrencyFormat;
+use Jtn\ShopifyCurrencyFormat\UnsupportedFormatException;
 
-$formatter = new ShopifyMoneyFormat('{{ some_unsupported_format }}');
+$formatter = new ShopifyCurrencyFormat('{{ some_unsupported_format }}');
 
 try {
 	echo $formatter->format(1.00);
