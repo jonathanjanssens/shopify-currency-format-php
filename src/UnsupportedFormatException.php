@@ -1,6 +1,6 @@
 <?php
 
-namespace Jtn\ShopifyMoneyFormat;
+namespace Jtn\ShopifyCurrencyFormat;
 
 class UnsupportedFormatException extends \Exception
 {

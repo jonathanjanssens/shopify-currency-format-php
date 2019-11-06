@@ -1,4 +1,4 @@
-# Shopify Currency Formatter
+# Shopify Currency Format PHP
 
 [![Build Status](https://travis-ci.org/jonathanjanssens/shopify-currency-format-php.svg?branch=master)](https://travis-ci.org/jonathanjanssens/shopify-currency-format-php)
 

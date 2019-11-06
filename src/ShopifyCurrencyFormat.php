@@ -1,8 +1,8 @@
 <?php
 
-namespace Jtn\ShopifyMoneyFormat;
+namespace Jtn\ShopifyCurrencyFormat;
 
-class ShopifyMoneyFormat
+class ShopifyCurrencyFormat
 {
 
     protected $format;

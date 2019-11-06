@@ -15,12 +15,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Jtn\\ShopifyMoneyFormat\\": "src/"
+            "Jtn\\ShopifyCurrencyFormat\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Jtn\\ShopifyMoneyFormat\\Tests\\": "tests/"
+            "Jtn\\ShopifyCurrencyFormat\\Tests\\": "tests/"
         }
     },
     "scripts": {
